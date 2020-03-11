@@ -5,7 +5,7 @@ using namespace std;
 
 class iserializable{
 public:
-    virtual string to_string() = 0;
+    virtual string to_string() const = 0;
 
 };
 

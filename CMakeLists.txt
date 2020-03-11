@@ -7,6 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include_directories(interfaces)
 include_directories(boost)
+include_directories(bindings)
 
 add_executable(BoostDI main.cpp
                        boost/di.hpp
